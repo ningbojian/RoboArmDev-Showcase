@@ -9,6 +9,9 @@ __pycache__/
 *.zip
 *.log
 
+# local source material (contains real names; not for publication)
+/share PPT*.pdf
+
 # generated intermediates
 examples/drawing/
 examples/strokes/*_points.txt

@@ -11,7 +11,7 @@
 
 | 来源分支 | 作者/参与者 | 本仓库是否使用 | 说明 |
 |---|---|---|---|
-| `feature/Angeli_merge` | 安津毅（ningbojian） | 是 | 线稿 HALCON 轮廓、汉字笔顺、坐标归一化、README 整理 |
+| `feature/Angeli_merge` | Jinyi（ningbojian） | 是 | 线稿 HALCON 轮廓、汉字笔顺、坐标归一化、README 整理 |
 | `feature/chenxin` | Chenxin 等 | 仅演示数据 | 机械臂 IK / ArmPi / Hiwonder SDK / 执行脚本不纳入；只使用 `examples/cow/` 的轨迹和线稿作演示 |
 | `feature/Yadi`、`feature/Angeli` | Dii / Yadi 等 | 仅上游接口 | 图片风格化/草图/笔顺素材；`src/vision/style_transfer.py` 标注作者 Dii |
 | `feature/Mira` | qiu 等 | 否 | Canny / 超声测距等实验代码，和完整展示链路无关 |
@@ -23,6 +23,7 @@
 - `examples/strokes/hua.txt`、`stroke-order-hua.gif`：仓库内用 `scripts/render_strokes_gif.py` 生成。
 - `examples/cow/lineart.jpg`、`arm_path.txt`：团队执行层演示素材，用于说明“轨迹 → 机械臂”的后半段。
 - `src/vision/style_transfer.py`：原作者 Dii；仅作为可选的图片 → 线稿上游模块保留。
+- `docs/images/armpi-6dof.png`、`docs/images/arm-vertical-drawing.jpg`：从团队汇报 PPT 中提取的 ArmPi 整机图与垂直作画照片；已剔除人物和公司信息。
 
 ## 我的贡献（按原项目）
 
@@ -37,3 +38,4 @@
 - HALCON DLL、许可证、原始 50MB 工程 ZIP；
 - 原百度 GIF 爬虫（含历史 Cookie）；
 - 公司 Logo、同事照片、客户数据、课程/公司内部文档。
+- 团队汇报 PPT 源文件（含真实姓名，仅本地留存，未入库）。
