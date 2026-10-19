@@ -22,11 +22,11 @@
 | 模块 | 位置 | 作者 | 说明 |
 |---|---|---|---|
 | 图片风格化 / 线稿上游（可选） | `src/vision/style_transfer.py` | Dii（团队） | GrabCut + TensorFlow Hub；非我的个人成果，保留是为了讲清完整链路 |
-| 线稿轮廓 → 轨迹坐标 | `src/halcon/line_to_path.py` | 安津毅 | HALCON `lines_gauss`、XLD 轮廓、坐标输出 |
-| 汉字笔顺 GIF → 点 → 路径 | `src/chinese/` | 安津毅 | 镜像 GIF、帧差、形态学、轮廓中心、插值 |
-| 鼠标轨迹采集 | `src/drawing/` | 安津毅 | OpenCV 鼠标绘制 → 轨迹文件 |
-| 轨迹归一化 / 工作空间映射 | `src/trajectory/resize.py` | 安津毅 | 缩放到 20×20，平移到目标工作空间 |
-| 轨迹 → 机械臂执行接口 | `src/robot/execute_path.py` | 安津毅（接口整理） | 基于团队执行脚本的接口抽象；真实 SDK 未包含 |
+| 线稿轮廓 → 轨迹坐标 | `src/halcon/line_to_path.py` | Jinyi | HALCON `lines_gauss`、XLD 轮廓、坐标输出 |
+| 汉字笔顺 GIF → 点 → 路径 | `src/chinese/` | Jinyi | 镜像 GIF、帧差、形态学、轮廓中心、插值 |
+| 鼠标轨迹采集 | `src/drawing/` | Jinyi | OpenCV 鼠标绘制 → 轨迹文件 |
+| 轨迹归一化 / 工作空间映射 | `src/trajectory/resize.py` | Jinyi | 缩放到 20×20，平移到目标工作空间 |
+| 轨迹 → 机械臂执行接口 | `src/robot/execute_path.py` | Jinyi（接口整理） | 基于团队执行脚本的接口抽象；真实 SDK 未包含 |
 | 机械臂 IK / ArmPi / Hiwonder SDK | 未包含 | Chenxin / 团队 | 原项目执行层，因硬件和许可原因不放进本仓库 |
 | 演示素材 | `examples/`、`docs/images/` | 团队 | 线稿、路径、笔画和演示图来自团队项目 |
 
