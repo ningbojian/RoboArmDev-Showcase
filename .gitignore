@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+.DS_Store
+*.dll
+*.dat
+*.zip
+*.log
+
+# generated intermediates
+examples/drawing/
+examples/strokes/*_points.txt
+examples/strokes/*_mirror.gif
+examples/flower/mirror_halcon.png
+examples/flower/path_halcon.txt
